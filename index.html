@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+            scrollbar-width:auto;
+            display: flex;
+            justify-content: center;
+            
+        }
+        .main::-webkit-scrollbar{
+            display: none;
+        }
+        .main{
+            background-image: url("https://cdn.wallpapersafari.com/27/32/jt4AoG.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow:scroll;
+            height:700px;
+            width:450px;
+            border-radius: 25px;
+            border: 6px solid black;
+            position: fixed;
+        }
+        .main1{
+            background-color: darkgreen;
+            width:450px;
+            height: 80px;
+            position: fixed;
+            border-radius: 20px 20px 0px 0px;
+            
+            
+        }
+        .parent1{
+            width:425px;
+            height:75px;
+            border:solid darkgreen;
+            
+        }
+        .para{
+            color:white;
+            font-weight: bold;
+            font-size:30px;
+            margin-top: 20px;
+            margin-left:3px;
+            
+        }
+        .circle{
+            width:40px;
+            height: 40px;
+            border-radius: 50%;
+            
+            margin-left:45px;
+            margin-top:-65px;
+        }
+        img{
+            width:40px;
+            height:40px;
+            border-radius: 50%;
+        }
+        .name{
+            font-size:20px;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            margin-top:-30px;
+            margin-left: 95px;
+        }
+        .para12{
+            font-size:28px;
+            position: absolute;
+            top:-4px; 
+            left:410px;
+            color: white;
+        }
+        .head{
+           
+            height:25px;
+            width:110px;
+            position: sticky;
+            top:90px;
+            left:170px;
+            font-weight: lighter;
+            border-radius: 10px;
+            background-color: white;
+            border: solid white;
+        }
+        .main2{
+            color:black;
+            text-align: center;   
+            margin-top:80px; 
+            z-index:-1;
+            
+        }
+        .para1{
+            background-color: white;
+            border: solid white;
+            font-size:16px;
+            margin-left:10px;
+            border-radius: 0px 10px 10px 10px;
+        }
+        .para2{
+            background-color: lightgreen;
+            border: solid lightgreen;
+            font-size:16px;
+            border-radius: 10px 0px 10px 10px;
+        }
+        .p1{
+            width:35px;
+        }
+        .p2{
+            width:100px;
+        }
+        .p3{
+            width:80px;
+            margin-left:350px;
+        }
+        .p4{
+            width:100px;
+            margin-left:330px;
+        }
+        .p5{
+            width: 80px;
+        }
+        .p6{
+            width: 270px;
+        }
+        .p7{
+            width: 120px;
+            margin-left:310px;
+        }
+        .p8{
+            width: 200px;
+        }
+        .p9{
+            width: 160px;
+            margin-left:270px;
+        }
+        .p10{
+            width: 45px ;
+        }
+        .p11{
+            width: 130px;
+            margin-left:300px;
+        }
+        .p12{
+            width: 150px;
+        }
+        .p13{
+            width: 190px;
+            margin-left:240px;
+        }
+        .p14{
+            width: 280px;
+        }
+        .p15{
+            width: 70px;
+        }
+        .p16{
+            width: 45px;
+            margin-left:380px;
+        }
+        .msg_bar{
+            position:fixed;
+            bottom:40px;
+           background-color: white;
+            height:40px;
+            width:400px;
+            border:1px solid;
+            border-radius:20px;
+            display: inline-block;
+        }
+        .foot{
+            background-image: url("https://cdn.wallpapersafari.com/27/32/jt4AoG.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 45px;
+            width:450px;
+            z-index:1;
+             position: fixed; 
+             position: sticky;
+            bottom:6px;
+            border-radius: 0 0 20px 20px;
+           
+        }
+        .mic{
+            height: 40px;
+            width:40px;
+            background-color: darkgreen;
+            margin-left:405px;
+            position: fixed;
+            bottom:40px;
+            z-index: 2;
+            border-radius: 50%;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+                    <p class="para">&#8592;</p>
+                    <div class="circle">
+                        <img src="../IMG_20240323_101007.jpg">
+                    </div>
+                    <h4 class="name">Prasanna</h4>
+                        <i class="fa fa-video-camera" style="color:white;font-size:25px;position: absolute;margin-left:295px;margin-top:-50px;"></i>
+                    <i class="fa fa-phone" style="color:white;font-size:25px;position: absolute;margin-left:355px;margin-top:-50px;"></i>
+                    <p class="para12">&#8942;</p>  
+        </div>
+        <div class="main2">
+            <h4 class="head">19 March 2023</h4>
+            <p class="p1 para1">Hii</p>
+            <p class="p2 para1">How are you?</p>
+            <p class="p3 para2">I am good</p>
+            <p class="p4 para2">How are you?</p>
+            <p class="p5 para1">I am good</p>
+            <p class="p6 para1">It's been along time since I talked to you</p>
+            <p class="p7 para2">Yes you are right</p>
+            <p class="p8 para1">How are all family members</p>
+            <p class="p9 para2">Yah! They all are good</p>
+            <p class="p10 para1">Okay</p>
+            <p class="p11 para2">How is life going?</p>
+            <p class="p12 para1">Well what about you?</p>
+            <p class="p13 para2">At present everything is fine</p>
+            <p class="p14 para1">Ok I am getting late to office see you later</p>
+            <p class="p15 para1">Bye Bye</p>
+            <p class="p16 para2">Okay</p>
+            <h4 class="head">20 March 2023</h4>
+            <p class="p1 para1">Hii</p>
+            <p class="p2 para1">How are you?</p>
+            <p class="p3 para2">I am good</p>
+            <p class="p4 para2">How are you?</p>
+            <p class="p5 para1">I am good</p>
+            <p class="p6 para1">It's been along time since I talked to you</p>
+            <p class="p7 para2">Yes you are right</p>
+            <p class="p8 para1">How are all family members</p>
+            <p class="p9 para2">Yah! They all are good</p>
+            <p class="p10 para1">Okay</p>
+            <p class="p11 para2">How is life going?</p>
+            <p class="p12 para1">Well what about you?</p>
+            <p class="p13 para2">At present everything is fine</p>
+            <p class="p14 para1">Ok I am getting late to office see you later</p>
+            <p class="p15 para1">Bye Bye</p>
+            <p class="p16 para2">Okay</p>
+            <h4 class="head">21 March 2023</h4>
+            <p class="p1 para1">Hii</p>
+            <p class="p2 para1">How are you?</p>
+            <p class="p3 para2">I am good</p>
+            <p class="p4 para2">How are you?</p>
+            <p class="p5 para1">I am good</p>
+            <p class="p6 para1">It's been along time since I talked to you</p>
+            <p class="p7 para2">Yes you are right</p>
+            <p class="p8 para1">How are all family members</p>
+            <p class="p9 para2">Yah! They all are good</p>
+            <p class="p10 para1">Okay</p>
+            <p class="p11 para2">How is life going?</p>
+            <p class="p12 para1">Well what about you?</p>
+            <p class="p13 para2">At present everything is fine</p>
+            <p class="p14 para1">Ok I am getting late to office see you later</p>
+            <p class="p15 para1">Bye Bye</p>
+            <p class="p16 para2">Okay</p>
+            <h4 class="head">22 March 2023</h4>
+            <p class="p1 para1">Hii</p>
+            <p class="p2 para1">How are you?</p>
+            <p class="p3 para2">I am good</p>
+            <p class="p4 para2">How are you?</p>
+            <p class="p5 para1">I am good</p>
+            <p class="p6 para1">It's been along time since I talked to you</p>
+            <p class="p7 para2">Yes you are right</p>
+            <p class="p8 para1">How are all family members</p>
+            <p class="p9 para2">Yah! They all are good</p>
+            <p class="p10 para1">Okay</p>
+            <p class="p11 para2">How is life going?</p>
+            <p class="p12 para1">Well what about you?</p>
+            <p class="p13 para2">At present everything is fine</p>
+            <p class="p14 para1">Ok I am getting late to office see you later</p>
+            <p class="p15 para1">Bye Bye</p>
+            <p class="p16 para2">Okay</p>
+            <h4 class="head">23 March 2023</h4>
+            <p class="p1 para1">Hii</p>
+            <p class="p2 para1">How are you?</p>
+            <p class="p3 para2">I am good</p>
+            <p class="p4 para2">How are you?</p>
+            <p class="p5 para1">I am good</p>
+            <p class="p6 para1">It's been along time since I talked to you</p>
+            <p class="p7 para2">Yes you are right</p>
+            <p class="p8 para1">How are all family members</p>
+            <p class="p9 para2">Yah! They all are good</p>
+            <p class="p10 para1">Okay</p>
+            <p class="p11 para2">How is life going?</p>
+            <p class="p12 para1">Well what about you?</p>
+            <p class="p13 para2">At present everything is fine</p>
+            <p class="p14 para1">Ok I am getting late to office see you later</p>
+            <p class="p15 para1">Bye Bye</p>
+            <p class="p16 para2">Okay</p>
+        </div>
+        <br><br>
+        <div class="foot">
+            <div class="msg_bar">
+                <i style="font-size:38px; position:relative;top:-6px;left:5px;color:gray">&#9786;</i>
+                <form>
+                    <input type="text" placeholder="Message" style="color:gray;border:1px solid white;position:relative;top:-38px;left:53px;font-size: 20px;">
+                </form>
+                <i class="fa fa-paperclip" style="color:gray;font-size:25px;position:relative;top:-68px;left:270px;"></i>
+                <i style="color:gray;;position:relative;top:-68px;left:290px;font-size: 28px;">&#8377;</i>
+                <i class="fa fa-camera" style="font-size:22px;color:gray;position:relative;top:-68px;left:310px;"></i>
+            </div>
+            <div class="mic">
+                <i class="material-icons" style="font-size:25px;color:white;position: relative;top:7px;left:7px">mic</i>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
